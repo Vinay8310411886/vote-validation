@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: aqua;
+        }
+        button{
+            border-radius: 25px;
+            cursor: pointer;
+
+
+        }
+        #name{
+            border-radius: 10px;
+            border :1px solid black ;
+            
+
+            
+
+        }
+        #age{
+            border-radius: 10px;
+            border:1px solid black;
+            color:black;
+        }
+        .na{
+            color:red;
+        }
+        .ag{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <form><center>
+    <table>
+        <tr>
+            <td class="na">Name:</td>
+        <td><input type="text" placeholder="Enter the Name" id="name"></td>
+        </tr>
+        <tr>
+            <td class="ag">Age:</td>
+            <td><input type="number" id="age" placeholder="Enter Your Age "></td>
+        </tr>
+        <tr>
+            <td><button onclick="vote()">Submit</button></td>
+            <td><input type="Reset" value="Reset" ></td>
+        </tr>
+    </table></center>
+    </form>
+
+ <script src="script.js"></script>   
+</body>
+</html>
